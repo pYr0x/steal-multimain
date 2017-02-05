@@ -1,0 +1,20 @@
+{
+  "name": "steal-multimain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "steal": {
+    "directories": {
+      "lib": "src"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "steal": "^1.1.0",
+    "steal-tools": "^1.1.1"
+  }
+}
